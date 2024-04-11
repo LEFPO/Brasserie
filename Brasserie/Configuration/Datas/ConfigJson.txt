@@ -1,0 +1,5 @@
+FOLDER,C:\Users\Ai\source\repos\Brasserie\Brasserie\Configuration\Datas\Json\
+ITEMS,Items.json
+TABLES,Tables.json
+CUSTOMERS,Customers.json
+STAFFMEMBERS,StaffMembers.json

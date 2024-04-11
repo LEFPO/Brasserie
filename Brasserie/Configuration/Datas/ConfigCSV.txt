@@ -1,0 +1,4 @@
+FOLDER,C:\Users\Ai\source\repos\Brasserie\Brasserie\Configuration\Datas\Csv\
+ITEMS,Items.csv
+TABLES,Tables.csv
+PEOPLE,Persons.csv
