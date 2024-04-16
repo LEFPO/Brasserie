@@ -1,4 +1,5 @@
-﻿using Brasserie.Utilities.Interfaces;
+﻿using Brasserie.Model.Restaurant;
+using Brasserie.Utilities.Interfaces;
 using CommunityToolkit.Mvvm.ComponentModel;
 using System;
 using System.Collections.Generic;
@@ -14,8 +15,12 @@ namespace Brasserie.ViewModel
         {
             RestaurantName = restaurantName;
             this.alertService = alertService;
+            MainInfos = new MainInformations("My Restaurant", "4, rue de la Lys 7000 Mons",
+            "BE 0563.191.043", "http://myrestaurant.be");
 
         }
+        public MainInformations MainInfos { get; set; }
+
         protected IAlertService alertService;
 
         public string RestaurantName { get; set; } = "Le Passe Temps";
